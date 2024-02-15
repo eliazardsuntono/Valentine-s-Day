@@ -1,0 +1,70 @@
+.Second-Accept{
+    border: none;
+    border-radius: 10px;
+    background-color: beige;
+    box-shadow: 5px 5px 5px rgb(155, 146, 146);
+    padding: 20px;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    max-width: 500px;
+    display: inline block;
+}
+
+.Second-Accept .Happy {
+    max-width: 30%;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.Second-Accept .movie-theater {
+    border-radius: 20px;
+    margin-right: 5px;
+    margin-left: 5px;
+    margin-bottom: 20px;
+    background-color: beige;
+    font-family: sans-serif;
+    color: black;
+}
+
+.Second-Accept .arcade {
+    border-radius: 20px;
+    margin-right: 5px;
+    margin-left: 5px;
+    margin-bottom: 20px;
+    background-color: beige;
+    font-family: sans-serif;
+    color: black;
+}
+
+.Second-Accept .park {
+    border-radius: 20px;
+    margin-right: 5px;
+    margin-left: 5px;
+    margin-bottom: 20px;
+    background-color: beige;
+    font-family: sans-serif;
+    color: black;
+}
+
+.Second-Accept .cafe {
+    border-radius: 20px;
+    margin-right: 5px;
+    margin-left: 5px;
+    margin-bottom: 20px;
+    background-color: beige;
+    font-family: sans-serif;
+    color: black;
+}
+
+.Second-Accept .dinner {
+    border-radius: 20px;
+    margin-right: 5px;
+    margin-left: 5px;
+    margin-bottom: 20px;
+    background-color: beige;
+    font-family: sans-serif;
+    color: black;
+}

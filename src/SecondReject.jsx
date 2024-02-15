@@ -1,5 +1,5 @@
-import FirstImage from './assets/loveydovey.jpeg';
 import React, { useState } from 'react';
+import SecondRejectionImage from './assets/crying.gif';
 import SecondAccept from './SecondAccept';
 import SecondReject from './SecondReject';
 
@@ -18,16 +18,17 @@ function FirstQuestion(){
     if (accepted) {
         return <SecondAccept />;
     }
-    if(rejected){
+
+    if (rejected) {
         return <SecondReject />;
     }
 
     return(
-        <div className='First-Question'>
-            <h1>Will You be My Valentines?</h1>
-            <img src={FirstImage} className='First-Image'></img>
-            <button className='yes-1' onClick={handleYesClick}>Yes?</button>
-            <button className='no-1' onClick={handleNoClick}>No?</button>
+        <div className='Second-Reject'>
+            <h1 className='Second-Reject-Header'>Are you really sure?????</h1>
+            <img src={SecondRejectionImage} className='Second-Reject-Image'></img>
+            <button className='NVM-1' onClick={handleYesClick}>Of course not! I could never say no to you!</button>
+            <button className='no-2' onClick={handleNoClick}>Yes.</button>
         </div>
     );
 }

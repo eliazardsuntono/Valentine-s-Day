@@ -1,0 +1,35 @@
+.First-Question {
+    border: none;
+    border-radius: 10px;
+    background-color: beige;
+    box-shadow: 5px 5px 5px rgb(155, 146, 146);
+    padding: 20px;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    max-width: 500px;
+    display: inline block;
+}
+
+.First-Question .First-Image {
+    max-width: 30%;
+    border-radius: 10px;
+}
+
+.First-Question .yes-1{
+    border-radius: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    background-color: beige;
+    font-family: sans-serif;
+    color: black;
+}
+
+.First-Question .no-1{
+    border-radius: 20px;
+    background-color: beige;
+    font-family: sans-serif;
+    color: black;
+}    
